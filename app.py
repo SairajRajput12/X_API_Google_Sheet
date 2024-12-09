@@ -32,6 +32,7 @@ def post_tweets():
         gemini_api_key = os.getenv('GEMINI_API_KEY')
         sheet_name = data.get("sheet_name")
         sheet_id = data.get("sheet_id")
+        print(gemini_api_key)
         
         # Initialize Gemini and Tweepy clients
         genai.configure(api_key=gemini_api_key)
