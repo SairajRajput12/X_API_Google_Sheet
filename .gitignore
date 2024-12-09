@@ -1,0 +1,9 @@
+.env
+mixed.py 
+fetch_sheet_data.py 
+gemini.py 
+MicrosoftWebDriver.exe
+test.py 
+tweet.py
+Tweeter.csv
+venv/
